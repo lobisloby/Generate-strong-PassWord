@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #072f3b;
+}
+
+.container {
+  height: 100%;
+  padding-left: 3em;
+  position: relative;
+}
+
+.app-container {
+  width: 400px;
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+}
+
+.app-container h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1.4rem;
+}
+
+.app-container h1 span {
+  color: rgb(18, 140, 18);
+  border-bottom: 4px solid;
+}
+
+.input-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.input-wrapper i {
+  position: absolute;
+  top: 34px;
+  right: 15px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.app-container input {
+  width: inherit;
+  margin: 1.4rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.app-container input:focus {
+  box-shadow: 2px 2px 8px rgb(18, 140, 18);
+  border: none;
+  outline: none;
+}
+
+.app-container button {
+  width: 50%;
+  padding: 0.7rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 8px rgb(18, 140, 18);
+  font-weight: 545;
+  cursor: pointer;
+}
+
+.app-container button i {
+  font-size: 1.2rem;
+  color: green;
+}
